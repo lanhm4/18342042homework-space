@@ -1,6 +1,4 @@
----
-layout: 
-title: slate
+title how to use vscode and github
 ---
 
 # 我的博客标题
