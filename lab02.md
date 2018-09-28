@@ -24,7 +24,7 @@
 ![](https://www.scirra.com/images/articles/loadtexturefromfile.png)      
 点击左上角的load an image from a file按钮，从你的电脑中选择你希望作为背景的图片。   
 然后关闭这个对话框。     
-在右侧的properties的position中，输入参数0,0。   
+在左侧的properties的position中，输入参数0,0。   
 size中输入1280,1024。以便背景图片能够覆盖整个编辑面板。     
 ![](https://www.scirra.com/images/articles/tiledproperties.png)
 
@@ -35,8 +35,10 @@ size中输入1280,1024。以便背景图片能够覆盖整个编辑面板。
 你应该看见Layer 0在这个列表中，点击铅笔图标重命名它为background，以便区分。    
 点击锁头图标以锁定background。    
 这样你不会不小心点击到它，而带来麻烦。     
-然后你需要点击左上角的加号图标，新增一个layer。      
+然后你需要点击左上角的加号图标，新增一个layer。       
 你可以把它命名为main，表示这是主要的layer。    
+做好这一切后，你的界面应该长这样：    
+![](https://www.scirra.com/images/articles/layersbar.png)     
 最后，确保你选定的是main。     
 否则你将不小心将之后的操作插入到错误的层里。     
 
