@@ -2,7 +2,7 @@
 
 * 下载 Construct 2
 
-到官网去下载。地址是[](https://www.scirra.com/construct2)
+到官网去下载。地址是https://www.scirra.com/construct2
 
 * 安装
 
