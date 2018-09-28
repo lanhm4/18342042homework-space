@@ -28,5 +28,7 @@
 size中输入1280,1024。以便背景图片能够覆盖整个编辑面板。     
 ![](https://www.scirra.com/images/articles/tiledproperties.png)
 
+* 插入一个新的layer
 
-
+在右侧的属性框中，选择layer。    
+![](https://www.scirra.com/images/articles/layerstab.png)     
