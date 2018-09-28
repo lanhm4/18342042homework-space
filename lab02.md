@@ -2,7 +2,7 @@
 
 * 下载 Construct 2
 
-到官网去下载。地址是https://www.scirra.com/construct2  free版本即可。
+到官网去下载。地址是https://www.scirra.com/construct2  选择free版本即可。
 
 * 安装
 
@@ -21,7 +21,11 @@
 选择红圈中的选项，双击以插入一个背景。
 这时你的鼠标会变成十字，随意点击一个空白处   
 ![](https://www.scirra.com/images/articles/loadtexturefromfile.png)      
-点击左上角的load an image from a file按钮，从你的电脑中选择你希望作为背景的图片。
+点击左上角的load an image from a file按钮，从你的电脑中选择你希望作为背景的图片。   
+然后关闭这个对话框。     
+在右侧的properties的position中，输入参数0,0。   
+size中输入1280,1024。以便背景图片能够覆盖整个编辑面板。     
+![](https://www.scirra.com/images/articles/tiledproperties.png)
 
 
 
