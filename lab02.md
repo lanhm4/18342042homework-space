@@ -2,7 +2,7 @@
 
 * 下载 Construct 2
 
-到官网去下载。地址是https://www.scirra.com/construct2  选择free版本即可。
+到官网去下载。地址是  https://www.scirra.com/construct2  选择free版本即可。
 
 * 安装
 
@@ -32,3 +32,15 @@ size中输入1280,1024。以便背景图片能够覆盖整个编辑面板。
 
 在右侧的属性框中，选择layer。    
 ![](https://www.scirra.com/images/articles/layerstab.png)     
+你应该看见Layer 0在这个列表中，点击铅笔图标重命名它为background，以便区分。    
+点击锁头图标以锁定background。    
+这样你不会不小心点击到它，而带来麻烦。     
+然后你需要点击左上角的加号图标，新增一个layer。      
+你可以把它命名为main，表示这是主要的layer。    
+最后，确保你选定的是main。     
+否则你将不小心将之后的操作插入到错误的层里。     
+
+* 插入游戏对象
+
+
+
