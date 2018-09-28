@@ -10,7 +10,13 @@
 
 * 新建一个文件
 
-打开Construct 2,并在左上角的file中选择**new** --------> **new empty project**------------> 选择右下角的 **open**即可。
+打开Construct 2,并在左上角的file中选择**new**--------> **new empty project**------------> 选择右下角的 **open**即可。
+![](https://www.scirra.com/images/articles/filenew.png)
+![](https://www.scirra.com/images/articles/newprojdialog65.png)
+
+* 添加背景
+
+
 
 
 
