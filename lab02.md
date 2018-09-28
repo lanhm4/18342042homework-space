@@ -20,6 +20,7 @@
 ![](https://www.scirra.com/images/articles/insertobject.png)    
 选择红圈中的选项，双击以插入一个背景。
 这时你的鼠标会变成十字，随意点击一个空白处   
+![](https://www.scirra.com/images/articles/loadtexturefromfile.png)      
 点击左上角的load an image from a file按钮，从你的电脑中选择你希望作为背景的图片。
 
 
