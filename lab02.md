@@ -276,5 +276,25 @@ Action: Monster -> Set angle toward position -> For X, Player.X - for Y, Player.
 
 ![](https://www.scirra.com/images/articles/healthadded.png)       
 
+再然后，你需要改变原有的事件。      
 
+找到下图中的事件，右键单击黄色那一栏。     
 
+![](https://www.scirra.com/images/articles/replaceaction.png)      
+
+然后选择replace,就像图中用红圈圈起来的那样。   
+
+然后修改       
+
+Monster -> Subtract from (in the Instance variables category) -> Instance variable "health"       
+
+输入1，回车。        
+
+为了让血量低于0的怪兽消失，进行以下操作：     
+
+Condition: Monster -> Compare instance variable -> Health, Less or equal, 0       
+Action: Monster -> Spawn another object -> Explosion, layer 1       
+Action: Monster -> Destroy       
+
+![](https://www.scirra.com/images/articles/monsternohealth.png)      
+ 
