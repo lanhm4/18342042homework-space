@@ -298,3 +298,63 @@ Action: Monster -> Destroy
 
 ![](https://www.scirra.com/images/articles/monsternohealth.png)      
  
+* 记录玩家的分数 
+
+为了让你自己或别的玩家能够看到自己的分数，你需要加入一个全局变量。     
+
+在event sheet 的底部右键单击。    
+
+![](https://www.scirra.com/images/articles/addglobal.png)       
+
+将名字改为score,initial variable改为0.    
+
+![](https://www.scirra.com/images/articles/addglobalscore.png)     
+
+然后你会看见这一栏出现在event sheet 的最上方      
+
+![](https://www.scirra.com/images/articles/globalscorevar.png)     
+
+为了让分数增加，你需要进行如下操作：     
+
+Add action, and select System -> Add to (under Global & local variables) -> Score, value 1       
+
+![](https://www.scirra.com/images/articles/scoreeevent.png)     
+
+现在，玩家每杀死一只怪兽，分数就会加一。     
+
+* 让分数显示出来
+
+现在，回到开始时的layer编辑界面。     
+
+新插入一个layer     
+
+在属性栏中，将他的 Parallax参数改为0,0       
+
+双击空白处，插入Text     
+
+在Text的属性栏中，将其设置为粗体，亮黄色，然后将它拉大一点，以便我们更清楚的看到分数。      
+
+![](https://www.scirra.com/images/articles/textinlayout.png)     
+
+回到event sheet    
+
+在我们之前加入的every tick 中，添加一个新的action     
+
+Text -> Set text     
+
+Score:  & Score     
+
+这样，你就将分数的值连接到文本上面了。      
+
+* 让系统重新生成怪物
+
+在你将怪兽全部打死后，他们不会重新复活，这时你会无事可做。    
+
+为了避免这种情况，你需要让系统自动生成怪物。    
+
+进行以下操作：     
+
+Condition: System -> Every X seconds -> 3      
+Action: System -> Create object -> Monster, layer 1, 1400 (for X), random(1024) (for Y)      
+
+# 到此为止，你已经做好了一个新的游戏，在电脑上试着运行它吧！
