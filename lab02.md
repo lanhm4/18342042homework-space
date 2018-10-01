@@ -96,7 +96,34 @@ size中输入1280,1024。以便背景图片能够覆盖整个编辑面板。
 
 重命名他们，以便你不会将它们搞混。    
 
+* 为游戏对象添加行为
 
+点击玩家，看向左侧的属性栏     
 
+在behaviors一栏中，点击Add/edit。如下图      
+
+![](https://www.scirra.com/images/articles/openbehaviors.png)      
+
+点击左上角的加号图标，插入8 direction movement。     
+
+![](https://www.scirra.com/images/articles/add8dir.png)     
+
+类似的，插入以下几个behivors。      
+
+![](https://www.scirra.com/images/articles/playerbehaviors_2.png)    
+
+再往后，为子弹插入Bullet movement和Destroy outside layout。     
+
+为怪兽插入Bullet movement。    
+
+为爆炸插入fade。   
+
+最后，修改属性栏中Bullet movement的速度。如图：     
+
+![](https://www.scirra.com/images/articles/bulletproperties.png)
+
+将子弹的速度改成600，怪物的速度改成80。     
+
+然后将爆炸的fade out time改为0.5.     
 
 
