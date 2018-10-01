@@ -135,7 +135,7 @@ size中输入1280,1024。以便背景图片能够覆盖整个编辑面板。
 
 不然一开始游戏玩家会很快死掉。     
 
-* 添加时间
+* 添加事件
 
 在编辑面板的最上方，你会看见下图：    
 
@@ -175,9 +175,106 @@ size中输入1280,1024。以便背景图片能够覆盖整个编辑面板。
 
 ![](https://www.scirra.com/images/articles/alwayslookatmouse.png)     
 
-现在你已经掌握了插入事件的基本套路。      
+现在你已经掌握了插入事件的基本套路。    
+
+你之前的操作可以总结为：   
+
+Add condition System -> Every tick       
+Add action Player -> Set angle towards position -> X: Mouse.X, Y: Mouse.Y        
+
+你需要熟悉这个格式，因为此后的操作会用这种格式来说明。     
 
 然后你需要再次插入以下事件：     
 
 ![](https://www.scirra.com/images/articles/spawnbullet1.png)     
+
+Condition: Mouse -> On click -> Left clicked (the default)      
+Action: Player -> Spawn another object -> For Object      
+
+然后，在弹出的对话框中双击子弹。     
+
+对于layer,输入1，对于image point,让他保留0。    
+
+为了让子弹从枪口射出而不是从玩家的中心射出，你需要进行一点修改。    
+
+右键单击玩家，选择Edit animation。     
+
+![](https://www.scirra.com/images/articles/editanimations.png)     
+
+图像编辑器重新出现，在左下角选择：    
+
+![](https://www.scirra.com/images/articles/imagepointstool.png)    
+
+然后弹出一个这样的对话框:    
+
+![](https://www.scirra.com/images/articles/imagepointsdlg.png)     
+
+点击左上角的加号，然后点击玩家图标的枪口：   
+
+![](https://www.scirra.com/images/articles/placingimagepoint.png)       
+
+关闭对话框，然后回到此前的编译框（双击swpan another object）      
+
+将image的参数由0改为1。     
+
+为了让子弹可以杀死怪兽，进行以下操作：    
+
+Condition: Bullet -> On collision with another object -> pick Monster.       
+Action: Monster -> Destroy      
+Action: Bullet -> Spawn another object -> Explosion, layer 1       
+Action: Bullet -> Destroy      
+
+* 让爆炸图片的黑框消失   
+
+单击爆炸图标     
+
+在左侧的属性栏中，看向最底部。     
+
+将Blend mode的状态由normal改为Additive。    
+
+* 让怪兽更聪明
+
+此时运行游戏，怪兽只是单纯的向右走。   
+
+为了让他更“聪明”，你需要修改一些东西。     
+
+进行以下操作：      
+
+Condition: System -> On start of Layout      
+Action: Monster -> Set angle -> random(360)       
+
+![](https://www.scirra.com/images/articles/ghostshooterevent4.png)      
+
+但是这时怪物会跑出界面，然后乱撞。     
+
+为了让它们老实的待在界面内    
+
+也为了让它们在玩家静止不动时冲向玩家     
+
+添加以下事件：     
+
+Condition: Monster -> Is outside layout       
+Action: Monster -> Set angle toward position -> For X, Player.X - for Y, Player.Y.       
+
+* 为怪兽设置血条
+
+点击怪兽图标，找到instance variable,如下图：   
+
+![](https://www.scirra.com/images/articles/instvars.png)     
+
+按照红色箭头指示的那样依次点击。      
+
+将instance variable的名字改为health，以便表示他们是怪兽的生命值。       
+
+在Initial variable中输入初始值，即怪兽刚开始的血量。    
+
+你可以输入5，也可以输入任何你喜欢的数字。     
+
+![](https://www.scirra.com/images/articles/healthinstvar.png)      
+
+然后点击OK。    
+
+![](https://www.scirra.com/images/articles/healthadded.png)       
+
+
 
