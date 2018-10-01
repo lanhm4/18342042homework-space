@@ -118,12 +118,66 @@ size中输入1280,1024。以便背景图片能够覆盖整个编辑面板。
 
 为爆炸插入fade。   
 
-最后，修改属性栏中Bullet movement的速度。如图：     
+最后，修改属性栏中Bullet movement的速度。     
+单击界面中的玩家图标，看向左侧的属性栏。如图：     
 
 ![](https://www.scirra.com/images/articles/bulletproperties.png)
 
-将子弹的速度改成600，怪物的速度改成80。     
+将子弹的Speed改成600，怪物的Speed改成80。     
 
-然后将爆炸的fade out time改为0.5.     
+同样，单击爆炸图标，在左侧将爆炸的fade out time改为0.5。    
 
+* 添加多个怪兽   
+
+按下ctrl键，然后拖动怪物，这样就可以复制很多怪物对象。     
+
+添加7到8个即可，且怪兽别离玩家太近。     
+
+不然一开始游戏玩家会很快死掉。     
+
+* 添加时间
+
+在编辑面板的最上方，你会看见下图：    
+
+![](https://www.scirra.com/images/articles/eventsheettab.png)     
+
+点击红圈中的event以添加新事件。     
+
+在空白处双击，出现以下对话框：    
+
+![](https://www.scirra.com/images/articles/newevent_2.png)     
+
+点击system中的every tick:     
+
+![](https://www.scirra.com/images/articles/everytickcnd.png)    
+
+然后你的界面应该长这样：    
+
+![](https://www.scirra.com/images/articles/everytickempty.png)     
+
+现在点击右侧的add action。     
+
+![](https://www.scirra.com/images/articles/addactiondlg.png)     
+
+双击玩家。     
+
+在此双击以加入set angle toward position。     
+
+![](https://www.scirra.com/images/articles/playersetanglepos.png)     
+
+然后软件会要求你输入参数。    
+
+![](https://www.scirra.com/images/articles/setangleposparams.png)      
+
+在X处输入Mouse.X，Y处输入Mouse.Y。     
+
+大功告成，你的页面看起来应该是这样的：     
+
+![](https://www.scirra.com/images/articles/alwayslookatmouse.png)     
+
+现在你已经掌握了插入事件的基本套路。      
+
+然后你需要再次插入以下事件：     
+
+![](https://www.scirra.com/images/articles/spawnbullet1.png)     
 
