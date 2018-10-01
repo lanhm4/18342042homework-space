@@ -118,7 +118,8 @@ size中输入1280,1024。以便背景图片能够覆盖整个编辑面板。
 
 为爆炸插入fade。   
 
-最后，修改属性栏中Bullet movement的速度。     
+最后，修改属性栏中Bullet movement的速度。   
+
 单击界面中的玩家图标，看向左侧的属性栏。如图：     
 
 ![](https://www.scirra.com/images/articles/bulletproperties.png)
