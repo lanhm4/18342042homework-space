@@ -360,4 +360,4 @@ Action: System -> Create object -> Monster, layer 1, 1400 (for X), random(1024) 
 
 # 到此为止，你已经做好了一个新的游戏，在电脑上试着运行它吧！       
 
-![](http://a2.qpic.cn/psb?/V14CiVqW1JlR99/RZinNMi5CXurNm6IME78XEBX5s9WWOPDU6bwNc4855k!/c/dDEBAAAAAAAA&ek=1&kp=1&pt=0&bo=AwM8AgAAAAACd20!&tl=1&vuin=2382454583&tm=1539003600&sce=60-2-2&rf=0-0)
+![](http://m.qpic.cn/psb?/V14CiVqW1JlR99/RZinNMi5CXurNm6IME78XEBX5s9WWOPDU6bwNc4855k!/b/dDEBAAAAAAAA&bo=AwM8AgAAAAACd20!&rf=viewer_4)
