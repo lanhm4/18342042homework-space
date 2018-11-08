@@ -56,10 +56,11 @@ TIME_COUNTER()//读取时间。
 WHILE(washTime > TIME_COUNTER())		
 
 {
-    
+
 	MOTOR_RUN(left)			
 
-	MOTOR_RUN(right)			
+	MOTOR_RUN(right)		
+    	
 }
 
 //没到时间就左转一次，右转一次，保证洗的干净。				
