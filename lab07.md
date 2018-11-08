@@ -59,7 +59,11 @@ int main() {
 5)
 高级语言是机器语言的抽象使用，编程者可以用更类似与人类的自然语言编程，而机器语言则是机器使用，机器只能执行由机器语言组成的指令。        
 
-步骤：
 
 #小结：
 这次实验让我了解了机器到底是如何执行我们下达的指令的，对于计算机的原理我有了更充分的了解。          
+
+步骤：
+![](http://a4.qpic.cn/psb?/V14CiVqW3GWRJY/EYEAsHSgBoLYMGUzxjWbFspRMgolcTMDR8oD3JINwAA!/c/dDMBAAAAAAAA&ek=1&kp=1&pt=0&bo=4wJxAQAAAAARF7E!&tl=3&vuin=2382454583&tm=1541685600&sce=60-2-2&rf=0-0)
+
+![](http://a4.qpic.cn/psb?/V14CiVqW3GWRJY/589odwPIZQ3iAIXF33dXP9NZX17YFdv5FghVYOffpr0!/c/dC8BAAAAAAAA&ek=1&kp=1&pt=0&bo=6QJ0AQAAAAARF74!&tl=3&vuin=2382454583&tm=1541685600&sce=60-2-2&rf=0-0)
