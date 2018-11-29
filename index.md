@@ -29,7 +29,8 @@
 11. [11-IT伦理与道德研究](lab11)
 12. [12-我喜欢的X语言](lab12)
 13. [13-贪吃蛇实验报告](lab13)
-附：[snake_move.c代码](snake_move.c)
+附：
+[snake_move.c代码](snake_move.c)
 [snake_eat.c代码](snake_eat.c)
 14. [14-IT风投之我见](lab14)
 15. [15-智能蛇实验报告](lab15)
