@@ -29,3 +29,7 @@
 ![](http://m.qpic.cn/psb?/V14CiVqW3GWRJY/Q37J44nz2gZ4xq4uFhgTEC9KNyCyIsw9XXbVfRHvPIE!/b/dFIBAAAAAAAA&bo=dQDjAwAAAAADB7c!&rf=viewer_4)
 
 ![](http://m.qpic.cn/psb?/V14CiVqW3GWRJY/jAfPTFxRd3SSer4*gZOWc0k8H8OErQFBoWWm.*T5U0o!/b/dFMBAAAAAAAA&bo=KQJvAQAAAAADB2c!&rf=viewer_4)
+
+## 小结：
+
+本次实验让我体会到了C语言的乐趣，做到了玩中学，学中玩，相信随着学习的深入，我会更多的体会到C语言的魅力。            
